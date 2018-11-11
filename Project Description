@@ -4,8 +4,6 @@ This program would detect a face and place various accessories such as sun glass
 Face Recognition would be implemented using OpenCV which would detect a face once you upload a picture. 
 The process would output a bounding box, a rectangular box in the form of X,Y, Height and Width.
 
-For the initial deadline, I would stick to image processing. 
-If I believe I have time and enough knowledge, I would try to implement a filter on a face in a real time video, by the second deadline.
 Facial key points would mark the important areas of the face such as the eyes, corners of the mouth, ears etc, the output will 
 be in the form of X,Y coordinates.
 
@@ -13,7 +11,10 @@ The next step is to implement the filters on the face detected, for example sung
 This can be done by using smartresize and merge commands from the Pixlab API or by using elements and features from the CV library.
 
 I will download the filters, such as the mustache or flower crown, from pixlab as png files. 
-I may also try to experiment with different, more complex filters and make my own filters.
+I may also try to experiment with different, more complex filters.
+
+For the initial deadline, I would stick to image processing. 
+If I believe I have time and enough knowledge, I would try to implement a filter on a face in a real time video, by the second deadline.
 
 By the first deadline:
 I will ensure that I can successfully place filters on a clear portrait of any person.
